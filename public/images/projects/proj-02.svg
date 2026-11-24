@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EDF7FF"/>
+      <stop offset="100%" stop-color="#D8EEFF"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1.8" fill="rgba(20,38,40,0.08)"/>
+    </pattern>
+    <style>
+      .wave-main {
+        stroke-dasharray: 24 10;
+        animation: waveFlow 3.4s linear infinite, waveBreath 3s ease-in-out infinite alternate;
+      }
+      .wave-sub {
+        animation: waveFlowRev 4.2s linear infinite, waveBreathAlt 3.4s ease-in-out infinite alternate;
+      }
+      .playhead {
+        animation: scanMove 4.4s ease-in-out infinite alternate;
+      }
+      .block-1 { animation: blockPulse 2.4s ease-in-out infinite; }
+      .block-2 { animation: blockPulse 2.4s ease-in-out infinite -0.8s; }
+      .block-3 { animation: blockPulse 2.4s ease-in-out infinite -1.6s; }
+      @keyframes waveFlow { to { stroke-dashoffset: -68; } }
+      @keyframes waveFlowRev { to { stroke-dashoffset: 48; } }
+      @keyframes waveBreath {
+        0% { transform: translateY(-4px); }
+        100% { transform: translateY(5px); }
+      }
+      @keyframes waveBreathAlt {
+        0% { transform: translateY(4px); }
+        100% { transform: translateY(-4px); }
+      }
+      @keyframes scanMove {
+        0% { transform: translateX(-165px); }
+        100% { transform: translateX(210px); }
+      }
+      @keyframes blockPulse {
+        0%, 100% { opacity: 0.72; }
+        50% { opacity: 1; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .wave-main, .wave-sub, .playhead, .block-1, .block-2, .block-3 { animation: none; }
+      }
+    </style>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#dots)"/>
+
+  <rect x="120" y="125" width="560" height="245" rx="22" fill="rgba(255,255,255,0.8)" stroke="#39C5BB" stroke-width="2"/>
+  <path class="wave-main" d="M160 220 Q220 155 280 220 T400 220 T520 220 T640 220" fill="none" stroke="#39C5BB" stroke-width="4" stroke-linecap="round"/>
+  <path class="wave-sub" d="M160 245 Q220 295 280 245 T400 245 T520 245 T640 245" fill="none" stroke="#E12885" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <rect class="block-1" x="165" y="295" width="120" height="28" rx="9" fill="#39C5BB"/>
+  <rect class="block-2" x="300" y="295" width="175" height="28" rx="9" fill="#28A9E0" opacity="0.8"/>
+  <rect class="block-3" x="490" y="295" width="145" height="28" rx="9" fill="#E12885" opacity="0.75"/>
+  <g class="playhead">
+    <line x1="380" y1="145" x2="380" y2="345" stroke="#142628" stroke-width="2.5"/>
+    <circle cx="380" cy="145" r="7" fill="#E12885"/>
+  </g>
+
+  <text x="48" y="64" font-family="monospace, sans-serif" font-size="18" font-weight="700" fill="#28A9E0">02 // VOCALOID TIMELINE</text>
+  <text x="48" y="452" font-family="sans-serif" font-size="28" font-weight="700" fill="#142628">Lyric Sync Studio</text>
+  <text x="752" y="452" text-anchor="end" font-family="monospace, sans-serif" font-size="16" fill="rgba(20,38,40,0.58)">MIKU.SPACE // ARCHIVE</text>
+</svg>

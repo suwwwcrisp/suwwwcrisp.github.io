@@ -1,0 +1,4 @@
+{
+  "modelFile": "miku-13th/miku.pmx",
+  "note": "当前已接入 彩虹砂糖 13th 初音 .pmx 模型。如需更换其他 .pmx / .glb / .vrm 模型，放入 public/models/ 并修改此处 modelFile 即可。"
+}

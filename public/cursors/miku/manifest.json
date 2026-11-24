@@ -1,0 +1,352 @@
+{
+  "normal": {
+    "width": 32,
+    "height": 32,
+    "hotspotX": 0,
+    "hotspotY": 0,
+    "frames": [
+      "cursors/miku/normal-0.png",
+      "cursors/miku/normal-1.png",
+      "cursors/miku/normal-2.png",
+      "cursors/miku/normal-3.png",
+      "cursors/miku/normal-4.png",
+      "cursors/miku/normal-5.png",
+      "cursors/miku/normal-6.png",
+      "cursors/miku/normal-7.png",
+      "cursors/miku/normal-8.png",
+      "cursors/miku/normal-9.png",
+      "cursors/miku/normal-10.png",
+      "cursors/miku/normal-11.png"
+    ],
+    "steps": [
+      {
+        "frame": 0,
+        "delayMs": 83
+      },
+      {
+        "frame": 1,
+        "delayMs": 83
+      },
+      {
+        "frame": 2,
+        "delayMs": 83
+      },
+      {
+        "frame": 3,
+        "delayMs": 83
+      },
+      {
+        "frame": 4,
+        "delayMs": 83
+      },
+      {
+        "frame": 5,
+        "delayMs": 83
+      },
+      {
+        "frame": 6,
+        "delayMs": 83
+      },
+      {
+        "frame": 7,
+        "delayMs": 83
+      },
+      {
+        "frame": 8,
+        "delayMs": 83
+      },
+      {
+        "frame": 9,
+        "delayMs": 83
+      },
+      {
+        "frame": 10,
+        "delayMs": 83
+      },
+      {
+        "frame": 11,
+        "delayMs": 83
+      }
+    ]
+  },
+  "link": {
+    "width": 32,
+    "height": 32,
+    "hotspotX": 4,
+    "hotspotY": 0,
+    "frames": [
+      "cursors/miku/link-0.png",
+      "cursors/miku/link-1.png",
+      "cursors/miku/link-2.png",
+      "cursors/miku/link-3.png",
+      "cursors/miku/link-4.png",
+      "cursors/miku/link-5.png",
+      "cursors/miku/link-6.png",
+      "cursors/miku/link-7.png",
+      "cursors/miku/link-8.png",
+      "cursors/miku/link-9.png",
+      "cursors/miku/link-10.png",
+      "cursors/miku/link-11.png"
+    ],
+    "steps": [
+      {
+        "frame": 0,
+        "delayMs": 83
+      },
+      {
+        "frame": 1,
+        "delayMs": 83
+      },
+      {
+        "frame": 2,
+        "delayMs": 83
+      },
+      {
+        "frame": 3,
+        "delayMs": 83
+      },
+      {
+        "frame": 4,
+        "delayMs": 83
+      },
+      {
+        "frame": 5,
+        "delayMs": 83
+      },
+      {
+        "frame": 6,
+        "delayMs": 83
+      },
+      {
+        "frame": 7,
+        "delayMs": 83
+      },
+      {
+        "frame": 8,
+        "delayMs": 83
+      },
+      {
+        "frame": 9,
+        "delayMs": 83
+      },
+      {
+        "frame": 10,
+        "delayMs": 83
+      },
+      {
+        "frame": 11,
+        "delayMs": 83
+      }
+    ]
+  },
+  "move": {
+    "width": 32,
+    "height": 32,
+    "hotspotX": 15,
+    "hotspotY": 15,
+    "frames": [
+      "cursors/miku/move-0.png",
+      "cursors/miku/move-1.png",
+      "cursors/miku/move-2.png",
+      "cursors/miku/move-3.png",
+      "cursors/miku/move-4.png",
+      "cursors/miku/move-5.png",
+      "cursors/miku/move-6.png",
+      "cursors/miku/move-7.png",
+      "cursors/miku/move-8.png",
+      "cursors/miku/move-9.png",
+      "cursors/miku/move-10.png",
+      "cursors/miku/move-11.png"
+    ],
+    "steps": [
+      {
+        "frame": 0,
+        "delayMs": 83
+      },
+      {
+        "frame": 1,
+        "delayMs": 83
+      },
+      {
+        "frame": 2,
+        "delayMs": 83
+      },
+      {
+        "frame": 3,
+        "delayMs": 83
+      },
+      {
+        "frame": 4,
+        "delayMs": 83
+      },
+      {
+        "frame": 5,
+        "delayMs": 83
+      },
+      {
+        "frame": 6,
+        "delayMs": 83
+      },
+      {
+        "frame": 7,
+        "delayMs": 83
+      },
+      {
+        "frame": 8,
+        "delayMs": 83
+      },
+      {
+        "frame": 9,
+        "delayMs": 83
+      },
+      {
+        "frame": 10,
+        "delayMs": 83
+      },
+      {
+        "frame": 11,
+        "delayMs": 83
+      }
+    ]
+  },
+  "text": {
+    "width": 32,
+    "height": 32,
+    "hotspotX": 4,
+    "hotspotY": 9,
+    "frames": [
+      "cursors/miku/text-0.png",
+      "cursors/miku/text-1.png",
+      "cursors/miku/text-2.png",
+      "cursors/miku/text-3.png",
+      "cursors/miku/text-4.png",
+      "cursors/miku/text-5.png",
+      "cursors/miku/text-6.png",
+      "cursors/miku/text-7.png",
+      "cursors/miku/text-8.png",
+      "cursors/miku/text-9.png",
+      "cursors/miku/text-10.png",
+      "cursors/miku/text-11.png"
+    ],
+    "steps": [
+      {
+        "frame": 0,
+        "delayMs": 83
+      },
+      {
+        "frame": 1,
+        "delayMs": 83
+      },
+      {
+        "frame": 2,
+        "delayMs": 83
+      },
+      {
+        "frame": 3,
+        "delayMs": 83
+      },
+      {
+        "frame": 4,
+        "delayMs": 83
+      },
+      {
+        "frame": 5,
+        "delayMs": 83
+      },
+      {
+        "frame": 6,
+        "delayMs": 83
+      },
+      {
+        "frame": 7,
+        "delayMs": 83
+      },
+      {
+        "frame": 8,
+        "delayMs": 83
+      },
+      {
+        "frame": 9,
+        "delayMs": 83
+      },
+      {
+        "frame": 10,
+        "delayMs": 83
+      },
+      {
+        "frame": 11,
+        "delayMs": 83
+      }
+    ]
+  },
+  "working": {
+    "width": 32,
+    "height": 32,
+    "hotspotX": 0,
+    "hotspotY": 0,
+    "frames": [
+      "cursors/miku/working-0.png",
+      "cursors/miku/working-1.png",
+      "cursors/miku/working-2.png",
+      "cursors/miku/working-3.png",
+      "cursors/miku/working-4.png",
+      "cursors/miku/working-5.png",
+      "cursors/miku/working-6.png",
+      "cursors/miku/working-7.png",
+      "cursors/miku/working-8.png",
+      "cursors/miku/working-9.png",
+      "cursors/miku/working-10.png",
+      "cursors/miku/working-11.png"
+    ],
+    "steps": [
+      {
+        "frame": 0,
+        "delayMs": 83
+      },
+      {
+        "frame": 1,
+        "delayMs": 83
+      },
+      {
+        "frame": 2,
+        "delayMs": 83
+      },
+      {
+        "frame": 3,
+        "delayMs": 83
+      },
+      {
+        "frame": 4,
+        "delayMs": 83
+      },
+      {
+        "frame": 5,
+        "delayMs": 83
+      },
+      {
+        "frame": 6,
+        "delayMs": 83
+      },
+      {
+        "frame": 7,
+        "delayMs": 83
+      },
+      {
+        "frame": 8,
+        "delayMs": 83
+      },
+      {
+        "frame": 9,
+        "delayMs": 83
+      },
+      {
+        "frame": 10,
+        "delayMs": 83
+      },
+      {
+        "frame": 11,
+        "delayMs": 83
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" width="220" height="240" fill="none">
+  <defs>
+    <clipPath id="jelly-dome-clip">
+      <path d="M 26 104 C 24 52, 62 22, 110 22 C 158 22, 196 52, 194 104 C 172 114, 142 116, 110 116 C 78 116, 48 114, 26 104 Z" />
+    </clipPath>
+  </defs>
+
+  <!-- 4 Plump Rounded Wavy Chibi Ribbon Tentacles -->
+  <path
+    d="M 54 118 C 46 144, 34 166, 44 192 C 48 202, 62 200, 62 188 C 62 170, 70 148, 72 122 Z"
+    fill="#FFD0E4"
+    stroke="#3B261C"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 166 118 C 176 142, 184 164, 174 190 C 169 201, 155 198, 156 186 C 157 168, 150 146, 148 122 Z"
+    fill="#FFD0E4"
+    stroke="#3B261C"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 82 122 C 74 150, 86 172, 76 204 C 73 216, 91 218, 95 206 C 103 178, 96 154, 102 124 Z"
+    fill="#9BF2EA"
+    stroke="#3B261C"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 118 122 C 124 152, 114 176, 126 206 C 130 218, 147 214, 144 202 C 136 174, 144 150, 138 122 Z"
+    fill="#E4CCFF"
+    stroke="#3B261C"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Bouncy 4-Lobe Pastel Sakura-Pink Scalloped Rim Frill -->
+  <path
+    d="M 28 100 L 192 100 L 192 104 C 196 124, 178 132, 164 126 C 158 124, 154 120, 151 116 C 147 128, 134 135, 122 131 C 116 129, 112 124, 110 119 C 108 124, 104 129, 98 131 C 86 135, 73 128, 69 116 C 66 120, 62 124, 56 126 C 42 132, 24 124, 28 104 Z"
+    fill="#FFC4DC"
+    stroke="#3B261C"
+    stroke-width="9.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Chubby Miku Mint-Teal Dome Bell (Flat 2-Tone Cel Fill + Crisp White Shine) -->
+  <g clip-path="url(#jelly-dome-clip)">
+    <rect x="20" y="18" width="180" height="104" fill="#7CEBE1" />
+    <!-- Soft Lower-Right Flat Cel Shading Band -->
+    <path
+      d="M 164 26 C 188 54, 176 96, 110 102 C 62 106, 36 98, 22 92 L 22 122 L 200 122 L 200 26 Z"
+      fill="#5CD7CC"
+    />
+    <!-- Crisp White Pill + Dot Cel Highlight (Matches Shell & Conch Stickers) -->
+    <path
+      d="M 54 68 C 58 50, 74 39, 92 36"
+      stroke="#FFFFFF"
+      stroke-width="8"
+      stroke-linecap="round"
+    />
+    <circle cx="107" cy="35" r="4.5" fill="#FFFFFF" />
+    <!-- Cute Flat Pastel Mint Dome Polka Accents -->
+    <circle cx="150" cy="58" r="5" fill="#D6FCF8" />
+    <circle cx="164" cy="72" r="3.5" fill="#D6FCF8" />
+    <circle cx="142" cy="76" r="3" fill="#D6FCF8" />
+  </g>
+
+  <!-- Unbroken Thick Dark Cocoa-Brown Outer Dome Outline -->
+  <path
+    d="M 26 104 C 24 52, 62 22, 110 22 C 158 22, 196 52, 194 104 C 172 114, 142 116, 110 116 C 78 116, 48 114, 26 104 Z"
+    stroke="#3B261C"
+    stroke-width="9.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>

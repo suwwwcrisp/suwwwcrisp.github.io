@@ -1,0 +1,54 @@
+/* ---------------------------------------------------------------------------
+ * Micro-Animations & Modal Transitions
+ * ------------------------------------------------------------------------- */
+
+/* Dress-up Sprite Pop Transition */
+@keyframes outfit-pop {
+  0% {
+    opacity: 0.35;
+    transform: scale(0.86) translateY(8px);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  55% {
+    opacity: 1;
+    transform: scale(1.06) translateY(-4px);
+    filter: drop-shadow(0 12px 18px rgba(57, 197, 187, 0.4));
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: drop-shadow(0 10px 14px rgba(17, 54, 58, 0.18));
+  }
+}
+
+.outfit-pop-enter-active {
+  animation: outfit-pop 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* macOS Modal Entrance */
+@keyframes mac-modal-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.mac-modal-enter-active {
+  animation: mac-modal-in 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glass-card,
+  .pill-btn {
+    transition: none !important;
+  }
+
+  .outfit-pop-enter-active,
+  .mac-modal-enter-active {
+    animation: none !important;
+  }
+}
